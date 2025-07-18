@@ -1,6 +1,5 @@
 import React from "react";
 import type { Route } from "./+types/about";
-import { Sparkles, Shield, Globe } from "lucide-react";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -38,7 +37,7 @@ const about = () => {
 
           <div>
             <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2">
-              <Sparkles className="w-6 h-6 text-primary" />
+          
               Key Features
             </h2>
             <ul className="list-disc pl-6 space-y-2">
@@ -57,7 +56,7 @@ const about = () => {
 
           <div>
             <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2">
-              <Shield className="w-6 h-6 text-primary" />
+
               Privacy & Security
             </h2>
             <p className="mb-4">
@@ -70,7 +69,7 @@ const about = () => {
 
           <div>
             <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2">
-              <Globe className="w-6 h-6 text-primary" />
+      
               Technical Capabilities
             </h2>
             <p className="mb-4">
