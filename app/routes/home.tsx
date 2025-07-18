@@ -24,16 +24,10 @@ const home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto space-y-8 lg:mr-[300px]">
-        <AdSenseResponsive />
-        <HeaderContent />
         <div className="border border-border bg-card dark:bg-card rounded-xl p-6">
-          <SvgToPngConverter />
+          Testing
         </div>
-        <AdSenseResponsive />
-        <HomepageContent />
-        <Footer />
       </div>
-      <DesktopSidebar />
     </div>
   );
 };
